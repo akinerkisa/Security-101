@@ -1,0 +1,55 @@
+# Yapay Zeka Güvenliğinin Temel Kavramları
+
+[![Videoyu İzle](images/8-1_placeholder.png)](https://learn-video.azurefd.net/vod/player?id=ba44f5f7-9b47-462f-9aa5-13e2b71f4998)
+
+P.S - Video dili ingilizcedir.
+
+---
+
+## Yapay Zeka Güvenliği Geleneksel Siber Güvenlikten Nasıl Farklıdır?
+
+Yapay zeka (AI) sistemlerini güvence altına almak, geleneksel siber güvenlikten farklı zorluklar sunar. Bu farklılıklar, yapay zekanın öğrenme yetenekleri ve karar verme süreçlerinden kaynaklanır. İşte bazı temel farklar:
+
+- **Veri Bütünlüğü**: Yapay zeka sistemleri öğrenme için büyük ölçüde verilere dayanır. Verilerin bütünlüğünü sağlamak kritik öneme sahiptir, çünkü saldırganlar, yapay zekanın davranışını etkilemek için verileri manipüle edebilir (bu taktik "veri zehirleme" olarak bilinir).  
+- **Model Güvenliği**: Yapay zekanın karar verme modeli de bir hedef olabilir. Saldırganlar modeli tersine mühendislik yapabilir veya zayıf noktalarını kullanarak yanlış veya zararlı kararlar almasını sağlayabilir.  
+- **Adversaryal Saldırılar**: Yapay zeka sistemleri, giriş verilerinde yapılan küçük ve genellikle algılanamaz değişikliklerle hatalar yapmaya veya yanlış tahminlerde bulunmaya zorlanabilir.  
+- **Altyapı Güvenliği**: Geleneksel siber güvenlik altyapıyı korumaya odaklanırken, yapay zeka sistemleri bulut tabanlı hizmetler veya özel donanımlar gibi ek karmaşıklık katmanlarına sahip olabilir ve bu da özel güvenlik önlemleri gerektirir.  
+- **Etik Hususlar**: Yapay zekanın güvenlikte kullanımı, gizlilik endişeleri ve karar verme süreçlerindeki önyargı potansiyeli gibi etik hususları da beraberinde getirir. Bu konular güvenlik stratejisinde ele alınmalıdır.  
+
+Sonuç olarak, yapay zeka sistemlerini güvence altına almak, verilerin, modellerin ve öğrenme süreçlerinin korunmasını içeren farklı bir yaklaşım gerektirir. Ayrıca, yapay zekanın dağıtımındaki etik etkiler de dikkate alınmalıdır.
+
+---
+
+## Yapay Zeka Güvenliği ile Geleneksel Siber Güvenlik Arasındaki Farklar
+
+Yapay zeka güvenliği ve geleneksel siber güvenlik birçok benzerliği paylaşsa da, yapay zeka sistemlerinin benzersiz özellikleri ve yetenekleri nedeniyle bazı belirgin farklılıklar vardır:
+
+- **Tehditlerin Karmaşıklığı**: Yapay zeka sistemleri, adversaryal saldırılar, veri zehirleme ve model kaçırma gibi makine öğrenimi algoritmalarını hedef alan saldırılara karşı savunmasızdır. Geleneksel siber güvenlik ise genellikle kötü amaçlı yazılımlar, kimlik avı saldırıları ve ağ ihlalleri gibi tehditlerle ilgilenir.  
+- **Saldırı Yüzeyi**: Yapay zeka sistemleri, yalnızca yazılıma değil, aynı zamanda verilere ve modellere de dayandığı için daha geniş bir saldırı yüzeyine sahiptir. Saldırganlar, eğitim verilerini hedef alabilir, modelleri manipüle edebilir veya algoritmalardaki güvenlik açıklarını kullanabilir.  
+- **Tehditlerin Uyarlanabilirliği**: Yapay zeka sistemleri çevrelerinden öğrenebilir ve uyum sağlayabilir, bu da onları uyarlanabilir ve gelişen tehditlere karşı daha savunmasız hale getirebilir. Geleneksel siber güvenlik önlemleri, sürekli evrilen bu tür saldırılara karşı yetersiz kalabilir.  
+- **Yorumlanabilirlik ve Açıklanabilirlik**: Yapay zeka sistemlerinin neden belirli bir kararı verdiğini anlamak, geleneksel yazılım sistemlerine kıyasla genellikle daha zordur. Bu yorumlanabilirlik eksikliği, yapay zeka sistemlerine yönelik saldırıları tespit etmeyi ve hafifletmeyi zorlaştırabilir.  
+- **Veri Gizliliği Endişeleri**: Yapay zeka sistemleri genellikle büyük miktarda veriye dayanır ve bu da uygun şekilde ele alınmazsa gizlilik risklerini artırabilir. Geleneksel siber güvenlik önlemleri, yapay zeka sistemlerine özgü bu veri gizliliği endişelerini yeterince ele almayabilir.  
+- **Düzenleyici Uyumluluk**: Yapay zeka güvenliği için düzenleyici ortam hâlâ gelişmektedir. Yapay zeka sistemlerinin getirdiği benzersiz zorlukları ele almak için özel düzenlemeler ve standartlar ortaya çıkmaktadır. Geleneksel siber güvenlik çerçeveleri, bu yeni düzenlemelere uyum sağlamak için genişletilmeli veya uyarlanmalıdır.  
+- **Etik Hususlar**: Yapay zeka güvenliği, yalnızca sistemleri kötü niyetli saldırılardan korumayı değil, aynı zamanda yapay zeka sistemlerinin etik ve sorumlu bir şekilde kullanılmasını sağlamayı da içerir. Bu, adalet, şeffaflık ve hesap verebilirlik gibi hususları içerir ve bu hususlar geleneksel siber güvenlikte genellikle daha az ön plandadır.  
+
+---
+
+## Yapay Zeka Güvenliği Geleneksel BT Sistemleri Güvenliği ile Nasıl Aynıdır?
+
+Yapay zeka sistemlerini güvence altına almak, geleneksel siber güvenlik ile birçok temel ilkeyi paylaşır:
+
+- **Tehdit Koruması**: Hem yapay zeka hem de geleneksel sistemler, yetkisiz erişim, veri değişikliği ve imha gibi yaygın tehditlere karşı korunmalıdır.  
+- **Güvenlik Açığı Yönetimi**: Yazılım hataları veya yanlış yapılandırmalar gibi geleneksel sistemleri etkileyen birçok güvenlik açığı, yapay zeka sistemlerini de etkileyebilir.  
+- **Veri Güvenliği**: İşlenen verilerin korunması, veri ihlallerini önlemek ve gizliliği sağlamak için her iki alanda da kritik öneme sahiptir.  
+- **Tedarik Zinciri Güvenliği**: Her iki sistem türü de, güvenliği tehlikeye atılmış bir bileşenin tüm sistemi zayıflatabileceği tedarik zinciri saldırılarına karşı savunmasızdır.  
+
+Bu benzerlikler, yapay zeka sistemlerinin yeni güvenlik zorlukları getirmesine rağmen, sağlam bir koruma sağlamak için yerleşik siber güvenlik uygulamalarının da uygulanması gerektiğini göstermektedir. Bu, geleneksel güvenlik bilgeliğini kullanırken yapay zeka teknolojisinin benzersiz yönlerine uyum sağlamayı gerektirir.
+
+---
+
+## İleri Okuma
+
+- [Not with a Bug, But with a Sticker [Kitap] (oreilly.com)](https://www.oreilly.com/library/view/not-with-a/9781119883982/)  
+- [Yapay Zeka Güvenliğine Giriş Bölüm 1: AI Security 101 | HarrietHacks | Medium](https://medium.com/@harrietfarlow/intro-to-ai-security-part-1-ai-security-101-b8662a9efe5)  
+- [Yapay Zeka Güvenliği Risk Yönetimi için En İyi Uygulamalar | Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2021/12/09/best-practices-for-ai-security-risk-management/?WT.mc_id=academic-96948-sayoung)  
+- [OWASP Yapay Zeka Güvenliği ve Gizlilik Rehberi | OWASP Foundation](https://owasp.org/www-project-ai-security-and-privacy-guide/)
