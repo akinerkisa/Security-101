@@ -1,0 +1,56 @@
+# Sorumlu Yapay Zeka
+
+[![Videoyu İzle](images/8-3_placeholder.png)](https://learn-video.azurefd.net/vod/player?id=b7517901-8f81-4475-b586-385a361c51e8)
+
+P.S - Video dili ingilizcedir.
+
+---
+
+## Sorumlu Yapay Zeka Nedir ve Yapay Zeka Güvenliği ile Nasıl İlişkilidir?
+
+**Sorumlu Yapay Zeka**, yapay zekanın etik, şeffaf ve toplumsal değerlere uygun bir şekilde geliştirilmesi ve kullanılması anlamına gelir. Adalet, hesap verebilirlik ve dayanıklılık gibi ilkeleri kapsar ve yapay zeka sistemlerinin bireyler, topluluklar ve toplum için faydalı olacak şekilde tasarlanmasını ve işletilmesini sağlar.
+
+Sorumlu yapay zeka ile yapay zeka güvenliği arasındaki ilişki oldukça önemlidir:
+
+- **Etik Hususlar**: Sorumlu yapay zeka, gizlilik ve veri koruma gibi güvenliği doğrudan etkileyen etik hususları içerir. Yapay zeka sistemlerinin kullanıcı gizliliğine saygı göstermesi ve kişisel verileri güvence altına alması, sorumlu yapay zekanın temel bir parçasıdır.  
+- **Dayanıklılık ve Güvenilirlik**: Yapay zeka sistemlerinin manipülasyonlara ve saldırılara karşı dayanıklı olması gerekir. Bu, hem sorumlu yapay zekanın hem de yapay zeka güvenliğinin temel ilkelerinden biridir.  
+- **Şeffaflık ve Açıklanabilirlik**: Sorumlu yapay zeka, yapay zeka sistemlerinin şeffaf olmasını ve kararlarının açıklanabilir olmasını gerektirir. Bu, güvenlik açısından da kritik bir öneme sahiptir, çünkü paydaşların yapay zeka sistemlerinin nasıl çalıştığını anlaması, güvenlik önlemlerine duyulan güveni artırır.  
+- **Hesap Verebilirlik**: Yapay zeka sistemleri, eylemlerinden sorumlu olmalıdır. Bu, kararların izlenebilir olmasını ve sorunların düzeltilmesi için mekanizmalar bulunmasını gerektirir. Bu ilke, güvenlik uygulamalarıyla uyumlu olarak sistem etkinliklerini izlemeyi ve ihlallere yanıt vermeyi içerir.  
+
+Özetle, sorumlu yapay zeka ve yapay zeka güvenliği birbiriyle iç içedir. Sorumlu yapay zeka uygulamaları, yapay zeka sistemlerinin güvenliğini artırırken, güvenli yapay zeka sistemleri de etik ve sorumlu bir şekilde çalışmayı destekler.
+
+---
+
+## Yapay Zeka Sistemimin Hem Güvenli Hem de Etik Olmasını Nasıl Sağlayabilirim?
+
+Yapay zeka sisteminizin hem güvenli hem de etik olmasını sağlamak için çok yönlü bir yaklaşım benimsemelisiniz. İşte bazı adımlar:
+
+- **Etik İlkelere Uyun**: İnsan, toplumsal ve çevresel refah; adalet; gizlilik koruması; güvenilirlik; şeffaflık; itiraz edilebilirlik ve hesap verebilirlik gibi yerleşik etik yönergeleri takip edin.  
+- **Dayanıklı Güvenlik Önlemleri Uygulayın**: Tehditlere ve güvenlik açıklarına karşı koruma sağlamak için proaktif güvenlik testleri ve yapay zeka güveni, risk ve güvenlik yönetimi programları kullanın.  
+- **Çeşitli Paydaşları Dahil Edin**: Etik uzmanları, sosyal bilimciler ve etkilenen toplulukların temsilcileri gibi geniş bir katılımcı yelpazesini yapay zeka geliştirme sürecine dahil ederek farklı bakış açılarını ve değerleri göz önünde bulundurun.  
+- **Şeffaflık ve Açıklanabilirlik Sağlayın**: Yapay zekanın karar verme süreçlerinin şeffaf ve açıklanabilir olmasını sağlayarak güven oluşturun ve olası önyargıları veya hataları tespit etmeyi kolaylaştırın.  
+- **Veri Gizliliğini Koruyun**: Kullanıcıların gizlilik haklarına saygı göstermek için şifreleme ve diğer veri koruma önlemleriyle verilerin gizliliğini ve bütünlüğünü sağlayın.  
+- **İnsan Denetimi Sağlayın**: Yapay zeka sistemlerinin kararlarının itiraz edilebilirliğini sağlamak ve hesap verebilirliği garanti altına almak için insan denetimi mekanizmaları uygulayın.  
+- **Yapay Zeka Güvenliği Hakkında Bilgi Edinin**: Yapay zeka güvenliği ve etiği konusundaki en son araştırmaları ve tartışmaları takip ederek yapay zeka güvenliği alanındaki gelişen manzarayı anlayın.  
+- **Düzenlemelere Uyun**: Yapay zeka sisteminizin veri koruma yasaları, ayrımcılık karşıtı yasalar ve sektöre özgü yönergeler gibi ilgili tüm yasa ve düzenlemelere uygun olmasını sağlayın.  
+
+---
+
+## Etik Olmayan Yapay Zeka Kullanımının Neden Olduğu Güvenlik Sorunlarına Örnekler Verebilir misiniz?
+
+İşte etik olmayan yapay zeka kullanımının neden olabileceği bazı güvenlik sorunları:
+
+- **Önyargılı Karar Verme**: Yapay zeka sistemleri, önyargılı veri setleriyle eğitildiklerinde mevcut önyargıları sürdürebilir ve artırabilir. Örneğin, toplumsal stereotipleri yansıtan bir arama motoru, önyargılı arama sonuçları gösterebilir ve bu da adaletsiz muameleye veya ayrımcılığa yol açabilir.  
+- **Yargı Sistemlerinde Yapay Zeka**: Hukuki karar verme süreçlerinde yapay zeka kullanımı, özellikle yapay zekanın karar verme süreci şeffaf değilse veya önyargılı verilerden etkileniyorsa, etik sorunlar doğurabilir. Bu, adaletsiz yasal sonuçlara ve bireylerin haklarının ihlaline neden olabilir.  
+- **Yapay Zeka Sistemlerinin Manipülasyonu**: Yapay zeka sistemleri, giriş verilerinde yapılan küçük değişikliklerle yanlış sonuçlar üretebilir. Örneğin, otonom araçlar, trafik işaretlerini yanlış yorumlamaya yönlendirilerek güvenlik riskleri oluşturabilir.  
+- **Yapay Zeka Destekli Gözetim**: Yapay zekanın gözetim amaçlı kullanımı, özellikle uygun izin olmadan veya bireysel özgürlükleri ihlal edecek şekilde kullanıldığında gizlilik ihlallerine yol açabilir. Bu, özellikle otoriter rejimlerde, muhalefeti izlemek ve bastırmak için yapay zekanın kullanıldığı durumlarda sorunlu olabilir.  
+
+Bu örnekler, yapay zeka sistemlerinin geliştirilmesi ve dağıtımında etik hususların güvenlik sorunlarını önlemek ve bireylerin haklarını ve gizliliğini korumak için ne kadar önemli olduğunu göstermektedir.
+
+---
+
+## İleri Okuma
+
+- [Microsoft Sorumlu Yapay Zeka Standardı v2 Genel Gereksinimler](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE5cmFl?culture=en-us&country=us&WT.mc_id=academic-96948-sayoung)  
+- [Sorumlu Yapay Zeka (mit.edu)](https://sloanreview.mit.edu/big-ideas/responsible-ai/)  
+- [Yapay Zekayı Sorumlu Kullanmak İçin 13 İlke (hbr.org)](https://hbr.org/2023/06/13-principles-for-using-ai-responsibly)
