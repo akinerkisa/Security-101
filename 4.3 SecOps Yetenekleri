@@ -1,0 +1,111 @@
+# SecOps Yetenekleri
+
+[![Videoyu İzle](images/4-3_placeholder.png)](https://learn-video.azurefd.net/vod/player?id=bdbc1c7c-307b-4519-b8ad-b142434c0461)
+
+Bu bölümde, güvenlik operasyonlarında kullanılabilecek temel araçlar ve yetenekler hakkında daha fazla ayrıntı ele alınacaktır.
+
+Bu derste şunları inceleyeceğiz:
+
+- SIEM (Güvenlik Bilgisi ve Olay Yönetimi) aracı nedir?  
+- XDR nedir?  
+- Güvenlik operasyonlarını geliştirmek için hangi yetenekler kullanılabilir?  
+
+---
+
+## SIEM (Güvenlik Bilgisi ve Olay Yönetimi) Aracı Nedir?
+
+SIEM (Security Information and Event Management), bir organizasyonun BT ortamında üretilen güvenlik uyarılarının analizini sağlayan bir araçtır. SIEM araçları, ağ cihazları, sunucular, uygulamalar ve güvenlik sistemleri gibi çeşitli kaynaklardan log verilerini toplar, birleştirir, ilişkilendirir ve analiz eder.
+
+SIEM araçlarının temel işlevleri ve yetenekleri şunlardır:
+
+1. **Log Toplama**:  
+   - Güvenlik duvarları, saldırı tespit sistemleri, antivirüs yazılımları gibi çok çeşitli cihazlardan, sistemlerden ve uygulamalardan log ve güvenlik olay verilerini toplar.
+
+2. **Veri Normalizasyonu**:  
+   - Log verilerini analiz ve ilişkilendirme kolaylığı sağlamak için ortak bir formata dönüştürür.
+
+3. **Olay İlişkilendirme**:  
+   - Güvenlik olaylarını ilişkilendirerek güvenlik olaylarını veya tehditleri gösterebilecek desenleri ve anormallikleri tespit eder.
+
+4. **Uyarı ve Bildirim**:  
+   - Şüpheli aktiviteler veya güvenlik ihlalleri tespit edildiğinde gerçek zamanlı uyarılar ve bildirimler oluşturur.
+
+5. **Olay Tespiti**:  
+   - Yetkisiz erişim, veri ihlalleri, kötü amaçlı yazılım bulaşmaları ve içeriden gelen tehditler gibi güvenlik olaylarının tespitini kolaylaştırır.
+
+6. **Kullanıcı ve Varlık Davranış Analitiği (UEBA)**:  
+   - Bazı SIEM araçları, anormal kullanıcı ve varlık davranışlarını tespit etmek için UEBA yeteneklerini içerir.
+
+7. **Tehdit İstihbaratı Entegrasyonu**:  
+   - Tehdit istihbarat akışlarıyla entegre olarak, bilinen tehdit göstergelerini (IOC'ler) ağ aktiviteleriyle karşılaştırır.
+
+8. **Otomasyon ve Orkestrasyon**:  
+   - Yaygın güvenlik olaylarına yanıtları otomatikleştirerek yanıt sürelerini kısaltır ve manuel çabayı azaltır.
+
+9. **Gösterge Panelleri ve Görselleştirme**:  
+   - Güvenlik verilerini izlemek ve özel raporlar oluşturmak için gösterge panelleri ve görselleştirme araçları sunar.
+
+10. **Diğer Güvenlik Araçlarıyla Entegrasyon**:  
+    - SIEM araçları, organizasyonun güvenlik duruşunun bütünsel bir görünümünü sağlamak için genellikle uç nokta tespiti ve yanıt (EDR) çözümleri gibi diğer güvenlik araçlarıyla entegre olur.
+
+---
+
+## XDR Nedir?
+
+XDR (Extended Detection and Response), geleneksel Uç Nokta Tespiti ve Yanıt (EDR) yeteneklerini genişleten ve çeşitli kaynaklardan gelen daha geniş güvenlik telemetrisini birleştiren bir teknolojidir. XDR, yalnızca EDR, SIEM veya diğer bireysel güvenlik araçlarına güvenmenin sınırlamalarını ele alarak tehdit tespiti, olay müdahalesi ve genel güvenliği iyileştirmeyi amaçlar.
+
+XDR'nin temel özellikleri ve bileşenleri şunlardır:
+
+1. **Veri Entegrasyonu**:  
+   - Uç noktalar, ağ trafiği, bulut hizmetleri, e-posta ve daha fazlası dahil olmak üzere birden fazla kaynaktan veri entegre eder. Bu kapsamlı veri birleştirme, tehdit tespiti ve analiz için daha geniş bir bağlam sağlar.
+
+2. **Gelişmiş Analitik**:  
+   - Gelişmiş analitik, makine öğrenimi ve davranış analitiği kullanarak güvenlik tehditlerini tespit eder ve önceliklendirir. Bilinen ve bilinmeyen tehditleri tespit etmek için entegre verilerde desenler ve anormallikler arar.
+
+3. **Otomatik Tehdit Tespiti**:  
+   - Çeşitli kaynaklardan gelen bilgileri ilişkilendirerek güvenlik tehditlerini ve anormallikleri otomatik olarak tespit eder. Birden fazla vektöre yayılabilen karmaşık saldırı zincirlerini tanımlayabilir.
+
+4. **Olay Soruşturma ve Yanıt**:  
+   - Güvenlik ekiplerinin olayların kapsamını ve etkisini hızlı bir şekilde değerlendirmesine ve uygun düzeltici eylemleri almasına yardımcı olan araçlar sağlar.
+
+5. **Tehdit İstihbaratı Entegrasyonu**:  
+   - Tehdit istihbarat akışlarını ve verilerini entegre ederek, bilinen tehdit göstergelerini organizasyonun ağ ve uç nokta aktiviteleriyle karşılaştırır.
+
+6. **Birleşik Konsol**:  
+   - Güvenlik ekiplerinin farklı kaynaklardan gelen güvenlik uyarılarını ve olaylarını merkezi bir şekilde görüntüleyip yönetebileceği birleşik bir konsol veya gösterge paneli sunar.
+
+7. **Çapraz Platform Kapsamı**:  
+   - XDR çözümleri, uç noktalar, sunucular, bulut ortamları ve mobil cihazlar dahil olmak üzere geniş bir platform yelpazesini kapsar ve modern, çok platformlu BT ortamları için uygundur.
+
+---
+
+## Güvenlik Operasyonlarını Geliştirmek İçin Hangi Yetenekler Kullanılabilir?
+
+Güvenlik operasyonlarını geliştirmek için organizasyonlar, SIEM araçlarının yanı sıra aşağıdaki yeteneklerden yararlanabilir:
+
+1. **Makine Öğrenimi ve Yapay Zeka**:  
+   - Gelişen tehditleri tespit etmek ve tehdit avını otomatikleştirmek için gelişmiş analitik, makine öğrenimi ve yapay zeka uygulayın.
+
+2. **Kullanıcı ve Varlık Davranış Analitiği (UEBA)**:  
+   - Anormallikleri ve içeriden gelen tehditleri tespit etmek için kullanıcı ve varlık davranışlarını analiz edin.
+
+3. **Tehdit İstihbarat Akışları**:  
+   - En son tehditler ve tehdit göstergeleri hakkında güncel kalmak için tehdit istihbarat akışlarını entegre edin.
+
+4. **Güvenlik Orkestrasyonu, Otomasyonu ve Yanıtı (SOAR)**:  
+   - Olay müdahalesini otomatikleştirmek ve güvenlik operasyonları iş akışlarını kolaylaştırmak için SOAR platformlarını uygulayın.
+
+5. **Aldatma Teknolojileri**:  
+   - Ağ içinde saldırganları yanıltmak ve tespit etmek için aldatma teknolojileri kullanın.
+
+---
+
+## Daha Fazla Okuma
+
+- [SIEM Nedir? | Microsoft Security](https://www.microsoft.com/security/business/security-101/what-is-siem?WT.mc_id=academic-96948-sayoung)  
+- [SIEM Nedir? - Güvenlik Bilgisi ve Olay Yönetimi - Cisco](https://www.cisco.com/c/en/us/products/security/what-is-siem.html)  
+- [Güvenlik Bilgisi ve Olay Yönetimi - Wikipedia](https://en.wikipedia.org/wiki/Security_information_and_event_management)  
+- [XDR Nedir? | Microsoft Security](https://www.microsoft.com/security/business/security-101/what-is-xdr?WT.mc_id=academic-96948-sayoung)  
+- [XDR ve XDR Güvenliği (kaspersky.com.au)](https://www.kaspersky.com.au/resource-center/definitions/what-is-xdr)  
+- [SecOps'un Gücü: Temel Güvenlik Yeteneklerini Yeniden Tanımlamak - The New Stack](https://thenewstack.io/the-power-of-secops-redefining-core-security-capabilities/)  
+- [Güvenlik Operasyonlarınızı ve Yanıtınızı İyileştirmek İçin Yedi Adım (securityintelligence.com)](https://securityintelligence.com/seven-steps-to-improve-your-security-operations-and-response/)
